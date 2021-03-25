@@ -1,11 +1,4 @@
-## Description
-
-Logs handler
-
-## How to use
-
-```
-const UniqueLogs = require('unique-team-logs');
+const UniqueLogs = require('./index');
 
 const logger = new UniqueLogs({
   type: 'file', // or DB
@@ -14,4 +7,3 @@ const logger = new UniqueLogs({
 });
 
 logger.fileLog({ message: 'This is a test log message' });
-```
